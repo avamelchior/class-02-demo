@@ -1,0 +1,53 @@
+body {
+    background-image: url('https://img1.etsystatic.com/013/0/7045804/il_fullxfull.461034969_bg79.jpg');
+    font-family: monospace;
+    color: #704C00;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 50px;
+    margin: 20px;
+    background-color: #fea73d;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-style: solid;
+    border-color: #704C00;
+    border-radius: 20px;
+}
+
+nav {
+    color:  #704C00;
+    font-size: 20px;
+    border-style: solid;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: #fea73d;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+p {
+    color: #704C00;
+    background-color: #fea73d;
+    border-style: solid;
+    margin-left: 125px;
+    margin-right: 125px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+img {
+    border-style: solid;
+    border-color: #704C00;
+    width: 300px;
+    height: 290px;
+    border-radius: 20px;
+
+}
+
