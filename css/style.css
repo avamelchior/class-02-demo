@@ -3,18 +3,17 @@ body {
     font-family: monospace;
     color: #704C00;
     text-align: center;
-    
 }
 
 h1 {
+    
     font-size: 50px;
     margin: 20px;
     background-color: #fea73d;
     margin-left: 500px;
     margin-right: 500px;
-    border-style: solid;
-    border-color: #704C00;
     border-radius: 20px;
+    border: 3px solid #704C00;
 }
 
 nav {
@@ -28,10 +27,20 @@ nav {
     margin-top: 5px;
 }
 
+ul {
+    border-radius: 20px;
+    border: 3px solid #704C00;
+}
+
+li {
+    display: inline;
+}
+
+
 p {
     color: #704C00;
     background-color: #fea73d;
-    border-style: solid;
+   
     margin-left: 125px;
     margin-right: 125px;
     font-size: 20px;
@@ -40,14 +49,13 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 20px;
+    border: 3px solid #704C00;
 }
 
 img {
-    border-style: solid;
-    border-color: #704C00;
     width: 300px;
     height: 290px;
     border-radius: 20px;
-
+    border: 3px solid #704C00;
 }
 
