@@ -12,26 +12,24 @@ h1 {
     background-color: #fea73d;
     margin-left: 500px;
     margin-right: 500px;
-    border-style: solid;
-    border-color: #704C00;
+    border: 3px solid #704C00;
     border-radius: 20px;
 }
 
 nav {
     color:  #704C00;
     font-size: 20px;
-    border-style: solid;
     margin-left: 500px;
     margin-right: 500px;
     background-color: #fea73d;
-    border-radius: 20px;
     margin-top: 5px;
+    border: 3px solid #704C00;
+    border-radius: 20px;
 }
 
 p {
     color: #704C00;
     background-color: #fea73d;
-    border-style: solid;
     margin-left: 125px;
     margin-right: 125px;
     font-size: 20px;
@@ -39,15 +37,28 @@ p {
     margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: 3px solid #704C00;
     border-radius: 20px;
 }
 
 img {
-    border-style: solid;
-    border-color: #704C00;
     width: 300px;
     height: 290px;
+    border: 3px solid #704C00;
     border-radius: 20px;
+}
 
+li {
+    color: #704C00;
+    background-color: #fea73d;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #704C00;
+    border-radius: 20px;
 }
 
