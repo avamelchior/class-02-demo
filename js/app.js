@@ -79,18 +79,17 @@ while (attempts > 0) {
   }
 }
 
-
 const favoriteMusicals = [
-  "Godspell",
-  "Jesus Christ Superstar",
-  "Newsies",
-  "Fiddler on the Roof",
-  "The Sound of Music",
-  "Les Mis",
-  "White Christmas",
-  "Singin' in the Rain",
-  "West Side Story",
-  "Spamalot"
+  "godspell",
+  "jesus christ superstar",
+  "newsies",
+  "fiddler on the roof",
+  "the sound of music",
+  "les mis",
+  "white christmas",
+  "singin' in the rain",
+  "west side story",
+  "spamalot"
 ];
 
 let attempts2 = 6;
