@@ -34,20 +34,27 @@ function getAlumStatus() {
   } else {
     alert('Darn! I did go to Xavier High School.');
   }
-};
+}
 
 getAlumStatus();
 
+//Question 4:
 
+let myJob;
 
-const myJob = confirm('Do I work at Microsoft?');
-
-if (myJob) {
-  alert('No, not yet. Maybe someday!');
-} else {
-  alert('You\'re right. Maybe someday, though!');
-  userPoints++;
+function getAJob() {
+  myJob = confirm('Do I work at Microsoft?');
+  if (myJob) {
+    alert('No, not yet. Maybe someday!');
+  } else {
+    alert('You\'re right. Maybe someday, though!');
+    userPoints++;
+  }
 }
+
+getAJob();
+
+
 
 const piano = confirm('Have I ever taught piano?');
 
