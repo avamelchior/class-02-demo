@@ -1,9 +1,17 @@
 'use strict';
 console.log('js is running!');
 
-let userName = prompt('What is your name?');
-console.log('username', userName);
+//Question 1:
+let userName;
 
+function getUserName() {
+  userName = prompt('What is your name?');
+  console.log('username', userName);
+}
+
+getUserName();
+
+//Question 2:
 let message;
 message = 'Thank you for taking my quiz,';
 console.log(message);
@@ -15,7 +23,7 @@ const isXavierAlumni = confirm("Did I go to Xavier High School? Select 'OK' for 
 
 if (isXavierAlumni) {
   alert("Yippee! I went to Xavier High School.");
-  userPoints ++;
+  userPoints++;
 } else {
   alert("Darn! I did go to Xavier High School.");
 }
@@ -26,14 +34,14 @@ if (myJob) {
   alert("No, not yet. Maybe someday!");
 } else {
   alert("You're right. Maybe someday, though!");
-  userPoints ++;
+  userPoints++;
 }
 
 const piano = confirm('Have I ever taught piano?');
 
 if (piano) {
   alert("Bingo! Piano's my favorite instrument.");
-  userPoints ++;
+  userPoints++;
 } else {
   alert("Erm, actually, I have taught piano.");
 }
@@ -42,7 +50,7 @@ const myGoal = confirm('Do I plan to make a lasting impact on technology?');
 
 if (myGoal) {
   alert("Correct, duh! Isn't that why I'm doing this assignment?");
-  userPoints ++;
+  userPoints++;
 } else {
   alert("Wrong. I'm trying to go places, here!");
 }
@@ -53,7 +61,7 @@ if (myJob) {
   alert("Womp womp, that would've been illegal child labor.");
 } else {
   alert("You're right, no child labor for Ava.");
-  userPoints ++;
+  userPoints++;
 }
 
 const correctAnswer = 19;
@@ -64,7 +72,7 @@ while (attempts > 0) {
 
   if (userGuess === correctAnswer) {
     alert("Congratulations! You guessed it correctly.");
-    userPoints ++;
+    userPoints++;
     break;
   } else if (userGuess < correctAnswer) {
     alert("Too low! Try again.");
@@ -101,8 +109,8 @@ while (attempts2 > 0) {
 
   if (favoriteMusicals.includes(userGuess)) {
     alert("Congratulations! That's one of my favorite musicals.");
-    userPoints ++;
-    break; 
+    userPoints++;
+    break;
   } else {
     alert("Sorry, that's not one of my favorite musicals. Please try again.");
   }
