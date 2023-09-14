@@ -54,16 +54,21 @@ function getAJob() {
 
 getAJob();
 
+//Question 5
+let piano;
 
-
-const piano = confirm('Have I ever taught piano?');
-
-if (piano) {
-  alert('Bingo! Piano\'s my favorite instrument.');
-  userPoints++;
-} else {
-  alert('Erm, actually, I have taught piano.');
+function getPlayerPiano() {
+  piano = confirm('Have I ever taught piano?');
+  if (piano) {
+    alert('Bingo! Piano\'s my favorite instrument.');
+    userPoints++;
+  } else {
+    alert('Erm, actually, I have taught piano.');
+  }
 }
+
+getPlayerPiano();
+
 
 const myGoal = confirm('Do I plan to make a lasting impact on technology?');
 
