@@ -12,10 +12,15 @@ function getUserName() {
 getUserName();
 
 //Question 2:
+
 let message;
-message = 'Thank you for taking my quiz,';
-console.log(message);
-document.write(message + ' ' + userName + '!');
+function sendMessage() {
+  message = 'Thank you for taking my quiz,';
+  console.log(message);
+  document.write(message + ' ' + userName + '!');
+}
+
+sendMessage();
 
 let userPoints = 0;
 
