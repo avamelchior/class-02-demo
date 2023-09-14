@@ -97,7 +97,7 @@ let attempts2 = 6;
 while (attempts2 > 0) {
   const userGuess = prompt(
     "What is one of my favorite musicals? You have 6 attempts. Enter your guess:"
-  );
+  ).toLowerCase();
 
   if (favoriteMusicals.includes(userGuess)) {
     alert("Congratulations! That's one of my favorite musicals.");
